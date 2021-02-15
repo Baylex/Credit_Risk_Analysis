@@ -23,6 +23,8 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 7. Use ensemble and resampling techniques to improve model performance.
 
 ## Results:
+The results for the six machine learning models including their respective balanced accuracy, precision, and recall scores are as follows:      
+
 ### Naive Random Oversampling
 ![Pic 1](https://github.com/Baylex/Credit_Risk_Analysis/blob/main/Machine_Learning_Challege/Images/1_Naive_Random_Oversampling.PNG)     
 1. Balanced Accuracy: 0.6612700484668286
@@ -59,8 +61,5 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 2. Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 3. Recall: High/Low risk = .91/.94
 
-
 ## Summary:
-
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model.  For the credit card data set, the Easy Ensemble AdaBoost Classifier is the best model to choose with its .93 balanced accuracy.  The other models were below .80 balanced accuracy.  The precision for all models were similar and within an appropriate range.  The recall score also needs to fall within 0 and 1, with numbers closer to 1 being the better model.  The Easy Ensemble AdaBoost Classifier had the highest recall score, making it the final best machine learning model to chose for further credit card analysis.   
