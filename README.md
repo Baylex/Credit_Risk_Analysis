@@ -1,8 +1,7 @@
 # Credit_Risk_Analysis
-UT McCombs Data Boot Camp: Module 17: Supervised Machine Learning and Credit Risk
+Supervised Machine Learning and Credit Risk
 
 ## Overview of the loan prediction risk analysis:   
-
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Different techniques were used to train and evaluate models with unbalanced classes. Various libraries and algorithms were used to build and evaluate models using resampling including: 
 1. imbalanced-learn 
 2. scikit-learn
